@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+/*.background-image {
+    position: relative; /* Create a positioning context for absolute elements 
+    background-image: url('path/to/your/background-image.jpg');
+    background-size: cover;
+    background-position: center center;*/
+    /* Set minimum height to cover the viewport */
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.7); /* Background color for the header box */
+    color: white; /* Text color for links and text inside the header */
+    padding: 10px 50px 10px; /* Add padding for spacing */
+    text-align: right; /* Center-align the content horizontally */
+    position: absolute;
+    top: 0; /* Position at the top of the background image */
+    left: 0;
+    width: 99.5%;
+}
+.header-box h1{
+    color: white;
+    padding: 10px 50px 10px;
+    text-align: left;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end; /* Center-align the links horizontally */
+}
+/*.resume-contact h1{
+    display: flex;
+    justify-content: flex-start;
+    
+}*/
+.nav-links a {
+    text-decoration: underline;
+    color: white;
+    padding-top: 0 ;
+    margin: 10px 15px; /* Add margin between links */
+    
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(203, 236, 236, 0.518);
+    background-image: url(images/background.jpg);
+    background-position: center center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height: 100vh; 
+    background-blend-mode: hard-light;
+    position: relative;
+    
+}
+
+.about-container {
+    display: grid; /* Use CSS grid for layout */
+    grid-template-columns: auto 1fr; /* Two columns: auto for the circular image and 1fr for the text */
+    align-items: center; /* Vertically align items */
+    gap: 20px; /* Gap between columns */
+    
+}
+
+.image-container {
+    width: 350px; /* Adjust the size as needed */
+    height: 350px;
+    overflow: hidden;
+    border-radius: 100%; /* Creates a circular shape */
+    float: left; /* Floats the container to the left side */
+    margin-right: 75px; /* Adds some spacing between the circular image and other content */
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill; /* Adjusts the image within the circular container */
+}
+
+.about-text h1 {
+    font: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 49px;
+    color: #fff;
+    display: inline-block;
+    align-items: center;
+    margin-top: 100px;
+    margin-right: 500px;
+}
+.about-text h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #fff;
+    display: inline-block;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 500px;
+}
+.about-text p {
+    font-size: 15px;
+    font-style: italic;
+    font-stretch: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 10px;
+    color: #d9f2f4;
+    display: inline-block;
+    align-items: right;
+    margin-top: 20px;
+    margin-right: 400px;
+}
+
+.footer-box {
+    background-color:  rgba(196, 229, 229, 0.518);
+    position: absolute;
+    padding: 0.3px 0;
+    text-align: center;
+    bottom: 0; /* Position at the bottom of the background image */
+    left: 0;
+    width: 100%;
+}
+
+
+.hire-box {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 220px;
+    
+}
+
+.hire-reason {
+    background-color: rgb(89, 149, 189);
+    border: none;
+    padding: 10px 10px;
+    border-radius: 15px;
+    width: 400px;
+    height: 220px;
+    margin: 10px 10px;
+    text-align: left;
+    position: relative;
+}
+
+.hire-reason p1 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.hire-reason p {
+    margin: 10px 0;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 2px;
+}
+.hire-reason p strong{
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hire-reason p u{
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.portfolio-container {
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto; /* Center-align the container */
+    padding: 20px;
+}
+.portfolio-container h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.project {
+    background-color: #dfecf0;
+    border: 1px solid #ccc;
+    padding: 15px 15px;
+    margin-bottom: 30px;
+}
+
+.project h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.project p{
+    padding: 5px 5px;
+    
+}
+.project a {
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+}
